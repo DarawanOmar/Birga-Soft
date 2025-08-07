@@ -1,12 +1,14 @@
 {
   "intro": {
+    "vedio": "Watch the video to learn more about the system",
     "Kurdish": "Kurdish",
     "Arabic": "Arabic",
     "English": "English",
     "menu": {
       "features": "Features",
       "technologies": "Technologies Used",
-      "about": "About"
+      "about": "About",
+      "video": "Video"
     },
     "hero": {
       "title": "Modern Birga Store Management System",
