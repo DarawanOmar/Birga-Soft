@@ -6,44 +6,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   return [
     {
-      url: `${baseUrl}/intro`,
+      url: `${baseUrl}`,
       lastModified: currentDate,
       changeFrequency: "monthly",
       priority: 1,
-      images: [
-        "https://birgastore.vercel.app/opengraph-image.png",
-        "https://birgastore.vercel.app/logo.webp",
-      ],
-    },
-    {
-      url: `${baseUrl}/sign-in`,
-      lastModified: currentDate,
-      changeFrequency: "monthly",
-      priority: 1,
-      images: [
-        "https://birgastore.vercel.app/opengraph-image.png",
-        "https://birgastore.vercel.app/logo.webp",
-      ],
-    },
-    {
-      url: `${baseUrl}/support`,
-      lastModified: currentDate,
-      changeFrequency: "monthly",
-      priority: 1,
-      images: [
-        "https://birgastore.vercel.app/opengraph-image.png",
-        "https://birgastore.vercel.app/logo.webp",
-      ],
-    },
-    {
-      url: `${baseUrl}/expired-session`,
-      lastModified: currentDate,
-      changeFrequency: "monthly",
-      priority: 1,
-      images: [
-        "https://birgastore.vercel.app/opengraph-image.png",
-        "https://birgastore.vercel.app/logo.webp",
-      ],
     },
   ];
 }

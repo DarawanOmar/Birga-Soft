@@ -7,6 +7,7 @@ import { cn } from "@/lib/utils";
 import { getMenuItems } from "./constants";
 import BttonModeVibe from "@/components/button-mode-vibe";
 import { useTranslations } from "next-intl";
+import { LangSelect } from "./lang-select";
 
 export const HeroHeader = () => {
   const t = useTranslations();
@@ -89,8 +90,9 @@ export const HeroHeader = () => {
             </div>
 
             {/* Desktop Menu */}
-            <div className="hidden lg:flex items-center gap-6">
+            <div className="hidden lg:flex items-center gap6">
               <BttonModeVibe />
+              <LangSelect />
             </div>
           </div>
         </div>
