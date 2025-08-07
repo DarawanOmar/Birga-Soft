@@ -1,6 +1,3 @@
-import { Metadata, Viewport } from "next";
-import { routing } from "@/i18n/routing";
-
 export default function RootLayout({
   children,
 }: {

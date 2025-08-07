@@ -5,12 +5,14 @@ import HeroSection from "@/components/hero-section";
 import React from "react";
 import LogoCloud from "@/components/logo-cloud";
 import AboutMe from "@/components/about";
-import { generateSEOMetadata, SEOConfigs } from "@/components/seo/metadata";
+import { Metadata } from "next";
 
-export const metadata = generateSEOMetadata({
-  ...SEOConfigs.intro,
-  url: "/intro",
-});
+export const metadata: Metadata = {
+  title: "Welcome to Birga Store",
+  description:
+    "Manage your store efficiently with Birga Store. Track inventory, handle sales, manage products, and grow your business with our comprehensive management system.",
+  keywords: ["Birga Store", "online shopping", "best offers"],
+};
 
 async function IntroPage() {
   return (
