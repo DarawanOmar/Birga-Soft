@@ -15,8 +15,8 @@ import { useTranslations } from "next-intl";
 import { useState } from "react";
 import Image from "next/image";
 import { Play } from "lucide-react";
-import posterLight from "@/public/light.png"; // Adjust the path as necessary
-import posterDark from "@/public/dark.png"; // Adjust the path as necessary
+import posterLight from "@/public/light.webp"; // Adjust the path as necessary
+import posterDark from "@/public/dark.wlight.webp"; // Adjust the path as necessary
 import { useTheme } from "next-themes";
 
 const VedioSystemWithCustomThumbnail = () => {
