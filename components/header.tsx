@@ -50,7 +50,7 @@ export const HeroHeader = () => {
           className={cn(
             "mx-auto mt-2 max-w-6xl px-6 transition-all duration-300  lg:px-12",
             isScrolled &&
-              "max-w-4xl rounded-2xl border backdrop-blur-lg bg-background/30 lg:px-5"
+              "max-w-4xl rounded-2xl border dark:border-none backdrop-blur-lg bg-background/30 lg:px-5"
           )}
         >
           <div className="relative flex flex-wrap items-center justify-between gap-6 py-3 lg:gap-0 lg:py-4 ">
@@ -99,13 +99,13 @@ export const HeroHeader = () => {
         {/* Mobile Menu */}
         <div
           className={cn(
-            "absolute top-full left-1/2 -translate-x-1/2 w-[calc(100%-theme(spacing.5))] mt-2 transition-all duration-300 ease-in-out lg:hidden border rounded-2xl",
+            "absolute top-full left-1/2 -translate-x-1/2 w-[calc(100%-theme(spacing.5))] mt-2 transition-all duration-300 ease-in-out lg:hidden border dark:border-none rounded-2xl",
             menuState
               ? "opacity-100 translate-y-0 visible backdrop-blur-lg bg-background/30"
               : "opacity-0 -translate-y-4 invisible"
           )}
         >
-          <div className={cn("border rounded-2xl p-6 ")}>
+          <div className={cn("border dark:border-none rounded-2xl p-6 ")}>
             <ul className="space-y-4 text-base">
               {menuItems.map((item, index) => (
                 <li key={index}>
