@@ -16,7 +16,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { Play } from "lucide-react";
 import posterLight from "@/public/light.webp"; // Adjust the path as necessary
-import posterDark from "@/public/dark.wlight.webp"; // Adjust the path as necessary
+import posterDark from "@/public/dark.webp"; // Adjust the path as necessary
 import { useTheme } from "next-themes";
 
 const VedioSystemWithCustomThumbnail = () => {
@@ -44,14 +44,14 @@ const VedioSystemWithCustomThumbnail = () => {
             onClick={handlePlayClick}
           >
             <Image
-              src="/light.png"
+              src="/light.webp"
               alt="Video Thumbnail"
               width={1200}
               height={675}
               className="w-full h-auto object-cover block dark:hidden"
             />
             <Image
-              src="/dark.png"
+              src="/dark.webp"
               alt="Video Thumbnail"
               width={1200}
               height={675}

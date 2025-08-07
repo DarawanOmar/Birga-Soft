@@ -17,11 +17,11 @@ export default async function LogoCloud() {
 
   return (
     <section
-      className="bg-background overflow-hidden py-16"
+      className="bg-background overflow-hidden py-32"
       dir="ltr"
       id="technologies"
     >
-      <div className="group relative m-auto max-w-7xl px-6">
+      <div className="group relative m-auto max-w-7xl px-6 ">
         <div className="flex flex-col items-center md:flexrow">
           <p className="text-base sm:text-3xl font-semibold mb-5 text-foreground">
             {t("intro.technologies.title")}
