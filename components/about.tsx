@@ -5,7 +5,7 @@ async function AboutMe() {
   const t = await getTranslations();
 
   return (
-    <div className="my-12 max-w-4xl mx-auto text-center relative z-10">
+    <div className="my-32 max-w-4xl mx-auto text-center relative z-10">
       <h3 className="text-xl font-semibold text-primary">
         {t("intro.about.title")}
       </h3>

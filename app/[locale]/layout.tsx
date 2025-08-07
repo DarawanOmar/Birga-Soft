@@ -5,6 +5,13 @@ import { ThemeProvider } from "@/providers/theme-providers";
 import { Viewport, Metadata } from "next";
 import { routing } from "@/i18n/routing";
 import { StructuredData } from "@/components/seo/structured-data";
+import { cn } from "@/lib/utils";
+import { Inter } from "next/font/google";
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+});
 
 export default async function RootLayout({
   children,
@@ -24,7 +31,12 @@ export default async function RootLayout({
         <StructuredData type="organization" />
         <StructuredData type="website" />
       </head>
-      <body className={`${fontSirwan.variable} font-sirwan font-medium`}>
+      <body
+        className={cn(`${fontSirwan.variable} ${inter.variable}  font-medium`, {
+          "font-inter ": locale === "en",
+          "font-sirwan ": locale !== "en",
+        })}
+      >
         <NextIntlClientProvider>
           <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
             {" "}
