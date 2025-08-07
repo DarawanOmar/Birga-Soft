@@ -1,0 +1,53 @@
+{
+  "intro": {
+    "menu": {
+      "features": "Features",
+      "technologies": "Technologies Used",
+      "about": "About"
+    },
+    "hero": {
+      "title": "Modern Birga Store Management System",
+      "description": "A complete and modern system for managing your store or business that is compatible with the system. This system can manage your store and business operations from purchasing, selling, accounting, reporting and more. With beautiful interface and easy use. With high quality and latest technology, the fastest system at an affordable price",
+      "contactUs": "Contact Us",
+      "viewSystem": "View System"
+    },
+    "features": {
+      "speed": {
+        "title": "Fast in Operations",
+        "description": "Fast in performing actions and processing data in a new and active way"
+      },
+      "security": {
+        "title": "Privacy Protection",
+        "description": "Setting a password for performing deletion actions and confirming the action"
+      },
+      "guide": {
+        "title": "Guidance and Explanation Feature",
+        "description": "Guides the user and analyzes the sections that exist on the page and explains how to use them"
+      },
+      "backup": {
+        "title": "Data Storage",
+        "description": "When working locally, it stores a copy of your data in a safe place like Google Drive on the user's email and other places"
+      },
+      "permissions": {
+        "title": "Permissions and Users",
+        "description": "Access to pages by users is determined by you",
+        "roles": {
+          "cashier": "Cashier",
+          "manager": "Manager",
+          "accountant": "Accountant"
+        }
+      }
+    },
+    "technologies": {
+      "title": "Built with Powerful Technologies"
+    },
+    "about": {
+      "title": "About the Developer",
+      "description1": "I am Darawan Omar, a passionate developer for new technology who created this comprehensive business management system. This platform is built with the latest technologies including Next.js as both parts of the system including \"Backend\" and \"Frontend\" which ensures the best performance, development and user experience.",
+      "description2": "The system is designed in a very good way and is available in both online and offline modes, where in offline mode you can transfer data backups to Google Drive and your own computer for more protection from loss."
+    },
+    "footer": {
+      "copyright": "© {year} Birga Store, All rights reserved"
+    }
+  }
+}
