@@ -47,7 +47,7 @@ export function StructuredData({ type, data }: StructuredDataProps) {
             "https://birgastore.vercel.app/products?search={search_term_string}",
           "query-input": "required name=search_term_string",
         },
-        inLanguage: ["ar", "ku", "en"],
+        inLanguage: ["ar", "kr", "en"],
       };
       break;
 

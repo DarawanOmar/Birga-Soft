@@ -4,6 +4,7 @@ import { fontSirwan } from "@/public/fonts";
 import { ThemeProvider } from "@/providers/theme-providers";
 import { Viewport, Metadata } from "next";
 import { routing } from "@/i18n/routing";
+import { StructuredData } from "@/components/seo/structured-data";
 
 export default async function RootLayout({
   children,
@@ -15,6 +16,14 @@ export default async function RootLayout({
   const { locale } = await params;
   return (
     <html dir={locale === "en" ? "ltr" : "rtl"} suppressHydrationWarning>
+      <head>
+        <meta
+          name="google-site-verification"
+          content={process.env.GOOGLE_SITE_VERIFICATION!}
+        />
+        <StructuredData type="organization" />
+        <StructuredData type="website" />
+      </head>
       <body className={`${fontSirwan.variable} font-sirwan font-medium`}>
         <NextIntlClientProvider>
           <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
@@ -42,6 +51,35 @@ export const metadata: Metadata = {
     "E-commerce",
     "Store Management",
   ],
+  authors: [
+    {
+      name: "Birga Soft",
+      url: "https://birgastore.vercel.app",
+    },
+  ],
+  creator: "Birga Soft",
+  publisher: "Birga Soft",
+  referrer: "origin-when-cross-origin",
+  generator: "Next.js",
+  category: "Store Management",
+  manifest: "/manifest.webmanifest",
+  metadataBase: new URL("https://birgastore.vercel.app"),
+  robots: {
+    index: true,
+    follow: true,
+    nocache: false,
+    noimageindex: false,
+    nosnippet: false,
+    noarchive: false,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: false,
+      "max-video-preview": -1,
+      "max-image-preview": "standard",
+      "max-snippet": -1,
+    },
+  },
 };
 
 export const viewport: Viewport = {
