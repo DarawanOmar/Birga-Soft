@@ -58,13 +58,6 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  alternates: {
-    canonical: "https://birgastore.vercel.app",
-    types: {
-      "application/rss+xml": "/feed.xml",
-      "application/atom+xml": "/feed.atom",
-    },
-  },
 };
 
 export const viewport: Viewport = {
