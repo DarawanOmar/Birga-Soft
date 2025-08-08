@@ -42,7 +42,7 @@ export default async function HeroSection() {
                 preset="blur"
                 speedSegment={0.3}
                 as="h1"
-                className="mt-8 max-sm:mt-16 text-balance text-4xl sm:text-5xl md:text-7xl lg:mt-16 xl:text-[5rem] rtl:!leading-normal ltr:!leading-[6rem] sm:-tracking-tighter font-bold"
+                className="mt-8 max-sm:mt-16 text-balance text-4xl sm:text-5xl md:text-7xl lg:mt-16 xl:text-[5rem] font-bold rtl:!leading-normal "
               >
                 {t("intro.hero.title")}
               </TextEffect>
