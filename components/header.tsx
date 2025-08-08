@@ -119,8 +119,9 @@ export const HeroHeader = () => {
                 </li>
               ))}
             </ul>
-            <div className="mt-6 pt-4 border-t">
+            <div className="mt-6 pt-4 border-t space-y-3">
               <BttonModeVibe />
+              <LangSelect />
             </div>
           </div>
         </div>
