@@ -72,11 +72,11 @@ const VedioSystemWithCustomThumbnail = () => {
             <VideoPlayerContent
               crossOrigin=""
               preload="auto"
-              autoPlay
+              autoPlay={isPlaying}
               tabIndex={0}
               poster={theme === "dark" ? posterDark.src : posterLight.src}
               slot="media"
-              src="https://0z2nd3qqcw.ufs.sh/f/TBCLLQXRstn02u11CYjVtWuHMkBYbXaG8iemn2pOf97A3KoD"
+              src="https://0z2nd3qqcw.ufs.sh/f/TBCLLQXRstn0y51bgg37F2PATULIRolS18JfW4ziMue6Cxkn"
             />
             <VideoPlayerControlBar>
               <VideoPlayerPlayButton />
