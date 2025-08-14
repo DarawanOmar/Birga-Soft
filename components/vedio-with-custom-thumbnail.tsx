@@ -76,7 +76,7 @@ const VedioSystemWithCustomThumbnail = () => {
               tabIndex={0}
               poster={theme === "dark" ? posterDark.src : posterLight.src}
               slot="media"
-              src="https://0z2nd3qqcw.ufs.sh/f/TBCLLQXRstn0y51bgg37F2PATULIRolS18JfW4ziMue6Cxkn"
+              src="https://0z2nd3qqcw.ufs.sh/f/TBCLLQXRstn0ubkCJJpM8vfG5iZbj1e7FzHUBIE3902TlNn6"
             />
             <VideoPlayerControlBar>
               <VideoPlayerPlayButton />
