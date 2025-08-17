@@ -2,11 +2,10 @@ import FeaturesSection from "@/components/features-8";
 import FooterSection from "@/components/footer";
 import { HeroHeader } from "@/components/header";
 import HeroSection from "@/components/hero-section";
-import React, { Suspense } from "react";
+import React from "react";
 import LogoCloud from "@/components/logo-cloud";
 import AboutMe from "@/components/about";
 import { Metadata } from "next";
-import VedioSystemWithCustomThumbnail from "@/components/vedio-with-custom-thumbnail";
 
 export const metadata: Metadata = {
   title: "Welcome to Birga Store",
@@ -50,3 +49,9 @@ async function IntroPage() {
 }
 
 export default IntroPage;
+
+const images = [
+  { src: "/report-screen.png", alt: "Image 1" },
+  { src: "/report-screen2.png", alt: "Image 2" },
+  { src: "/report-screen.png", alt: "Image 3" },
+];
