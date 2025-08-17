@@ -41,6 +41,25 @@
           "manager": "Manager",
           "accountant": "Accountant"
         }
+      },
+      "color": {
+        "title": "System Color Settings",
+        "description": "You can change the system colors in a new way on all pages, by selecting a color",
+        "colors": {
+          "primary": "Primary",
+          "secondary": "Secondary",
+          "accent": "Accent",
+          "more": "More"
+        }
+      },
+      "grid": {
+        "title": "System Layout Settings",
+        "description": "You can change the system layout in a new way on all pages, card style or table style",
+        "layouts": {
+          "table": "Table",
+          "card": "Card",
+          "resizable": "Resizable"
+        }
       }
     },
     "technologies": {

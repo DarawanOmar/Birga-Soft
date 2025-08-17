@@ -1,6 +1,16 @@
-import { Card, CardContent } from "@/components/ui/card";
-import { Shield, Users } from "lucide-react";
+import { Card, CardContent, CardHeader } from "@/components/ui/card";
+import {
+  BetweenHorizontalStart,
+  Globe,
+  Grid,
+  LayoutGrid,
+  Palette,
+  Shield,
+  Table,
+  Users,
+} from "lucide-react";
 import { getTranslations } from "next-intl/server";
+import Image from "next/image";
 
 export default async function FeaturesSection() {
   const t = await getTranslations();
@@ -310,6 +320,98 @@ export default async function FeaturesSection() {
                           alt=""
                         />
                       </div>
+                    </div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+            {/* Grid Layout */}
+            <Card className="card variant-outlined relative col-span-full overflow-hidden lg:col-span-3">
+              <CardContent className="grid h-full pt-6 sm:grid-cols-2">
+                <div className="relative z-10 flex flex-col space-y-12 lg:space-y-2">
+                  <div className="relative flex aspect-square size-12 rounded-full border before:absolute before:-inset-2 before:rounded-full before:border dark:border-white/10 dark:before:border-white/5">
+                    <Grid className="m-auto size-6" strokeWidth={1} />
+                  </div>
+                  <div className="space-y-2 pt-5">
+                    <h2 className="text-2xl font-semibold transition text-balance text-primary">
+                      {t("intro.features.grid.title")}
+                    </h2>
+                    <p className="text-foreground">
+                      {t("intro.features.grid.description")}
+                    </p>
+                  </div>
+                </div>
+                <div className="before:bg-(--color-border) relative mt-6 before:absolute before:inset-0 before:mx-auto before:w-px sm:ms-6">
+                  <div className="relative flex h-full flex-col justify-center space-y-6 py-6">
+                    <div className="relative flex w-[calc(50%+0.875rem)] items-center justify-end gap-2">
+                      <span className="block h-fit rounded border px-2 py-1 text-xs shadow-sm">
+                        {t("intro.features.grid.layouts.table")}
+                      </span>
+                      <div className="ring-background size-7 ring-4">
+                        <Table />
+                      </div>
+                    </div>
+                    <div className="relative ml-[calc(50%-1rem)] flex items-center gap-2">
+                      <div className="ring-background size-8 ring-4">
+                        <LayoutGrid />
+                      </div>
+                      <span className="block h-fit rounded border px-2 py-1 text-xs shadow-sm">
+                        {t("intro.features.grid.layouts.card")}
+                      </span>
+                    </div>
+                    <div className="relative flex w-[calc(50%+0.875rem)] items-center justify-end gap-2">
+                      <span className="block h-fit rounded border px-2 py-1 text-xs shadow-sm">
+                        {t("intro.features.grid.layouts.resizable")}
+                      </span>
+                      <div className="ring-background size-7 ring-4">
+                        <BetweenHorizontalStart />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+            {/* Color Scaleble */}
+            <Card className="card variant-outlined relative col-span-full overflow-hidden lg:col-span-3">
+              <CardContent className="grid h-full pt-6 sm:grid-cols-2">
+                <div className="relative z-10 flex flex-col space-y-12 lg:space-y-2">
+                  <div className="relative flex aspect-square size-12 rounded-full border before:absolute before:-inset-2 before:rounded-full before:border dark:border-white/10 dark:before:border-white/5">
+                    <Palette className="m-auto size-6" strokeWidth={1} />
+                  </div>
+                  <div className="space-y-2 pt-5">
+                    <h2 className="text-2xl font-semibold transition text-balance text-primary">
+                      {t("intro.features.color.title")}
+                    </h2>
+                    <p className="text-foreground">
+                      {t("intro.features.color.description")}
+                    </p>
+                  </div>
+                </div>
+                <div className="before:bg-(--color-border) relative mt-6 before:absolute before:inset-0 before:mx-auto before:w-px sm:ms-6">
+                  <div className="relative flex h-full flex-col justify-center space-y-6 py-6">
+                    <div className="relative flex w-[calc(50%+0.875rem)] items-center justify-end gap-2">
+                      <span className="block h-fit rounded border px-2 py-1 text-xs shadow-sm">
+                        {t("intro.features.color.colors.primary")}
+                      </span>
+                      <div className="ring-background size-7 ring-4 bg-[#27bebe] rounded-full"></div>
+                    </div>
+                    <div className="relative ml-[calc(50%-1rem)] flex items-center gap-2">
+                      <div className="ring-background size-8 ring-4 bg-[#2bd648] rounded-full"></div>
+                      <span className="block h-fit rounded border px-2 py-1 text-xs shadow-sm">
+                        {t("intro.features.color.colors.secondary")}
+                      </span>
+                    </div>
+                    <div className="relative flex w-[calc(50%+0.875rem)] items-center justify-end gap-2">
+                      <span className="block h-fit rounded border px-2 py-1 text-xs shadow-sm">
+                        {t("intro.features.color.colors.accent")}
+                      </span>
+                      <div className="ring-background size-7 ring-4 bg-[#4827be] rounded-full"></div>
+                    </div>
+                    <div className="relative ml-[calc(50%-1rem)] flex items-center gap-2">
+                      <div className="ring-background size-8 ring-4 bg-gradient-to-b from-[#d6d32b] via-[#be5e27] to-[#be2727] rounded-full"></div>
+                      <span className="block h-fit rounded border px-2 py-1 text-xs shadow-sm">
+                        {t("intro.features.color.colors.more")}
+                      </span>
                     </div>
                   </div>
                 </div>
