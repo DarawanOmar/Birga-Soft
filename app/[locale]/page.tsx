@@ -6,7 +6,6 @@ import React, { Suspense } from "react";
 import LogoCloud from "@/components/logo-cloud";
 import AboutMe from "@/components/about";
 import { Metadata } from "next";
-import VedioSystem from "@/components/vedio";
 import VedioSystemWithCustomThumbnail from "@/components/vedio-with-custom-thumbnail";
 
 export const metadata: Metadata = {
@@ -43,9 +42,7 @@ async function IntroPage() {
       <HeroSection />
       <FeaturesSection />
       <LogoCloud />
-      {/* <VedioSystem /> */}
-
-      <VedioSystemWithCustomThumbnail />
+      {/* <VedioSystemWithCustomThumbnail /> */}
       <AboutMe />
       <FooterSection />
     </div>

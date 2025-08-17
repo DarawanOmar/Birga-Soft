@@ -89,7 +89,7 @@ export default async function HeroSection() {
                     </Link>
                   </Button>
                 </div>
-                <Button
+                {/* <Button
                   key={2}
                   asChild
                   size="lg"
@@ -104,7 +104,7 @@ export default async function HeroSection() {
                       {t("intro.hero.viewSystem")}
                     </span>
                   </Link>
-                </Button>
+                </Button> */}
               </AnimatedGroup>
             </div>
           </div>
