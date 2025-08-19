@@ -8,7 +8,7 @@ export default function robots(): MetadataRoute.Robots {
         allow: ["/"],
       },
     ],
-    sitemap: "https://birgastore.vercel.app/sitemap.xml",
-    host: "https://birgastore.vercel.app",
+    sitemap: "https://birgastoresystem.vercel.app/sitemap.xml",
+    host: "https://birgastoresystem.vercel.app",
   };
 }

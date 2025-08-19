@@ -97,7 +97,7 @@ export default async function HeroSection() {
                   className="h-10.5 rounded-xl px-5"
                 >
                   <Link
-                    href="https://birgastore.vercel.app/kr/sign-in"
+                    href="https://birgastoresystem.vercel.app/kr/sign-in"
                     target="_blank"
                   >
                     <span className="text-nowrap">

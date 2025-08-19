@@ -13,8 +13,8 @@ export function StructuredData({ type, data }: StructuredDataProps) {
         "@type": "Organization",
         name: "Birga Store",
         description: "Complete store management solution for businesses",
-        url: "https://birgastore.vercel.app",
-        logo: "https://birgastore.vercel.app/logo.webp",
+        url: "https://birgastoresystem.vercel.app",
+        logo: "https://birgastoresystem.vercel.app/logo.webp",
         sameAs: [
           // Add your social media links here when available
           "https://www.facebook.com/birgastore",
@@ -29,7 +29,7 @@ export function StructuredData({ type, data }: StructuredDataProps) {
         contactPoint: {
           "@type": "ContactPoint",
           contactType: "customer service",
-          url: "https://birgastore.vercel.app/support",
+          url: "https://birgastoresystem.vercel.app/support",
         },
       };
       break;
@@ -40,11 +40,11 @@ export function StructuredData({ type, data }: StructuredDataProps) {
         "@type": "WebSite",
         name: "Birga Store",
         description: "Store management system for businesses",
-        url: "https://birgastore.vercel.app",
+        url: "https://birgastoresystem.vercel.app",
         potentialAction: {
           "@type": "SearchAction",
           target:
-            "https://birgastore.vercel.app/products?search={search_term_string}",
+            "https://birgastoresystem.vercel.app/products?search={search_term_string}",
           "query-input": "required name=search_term_string",
         },
         inLanguage: ["ar", "kr", "en"],

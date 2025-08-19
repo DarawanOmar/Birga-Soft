@@ -66,7 +66,7 @@ export const metadata: Metadata = {
   authors: [
     {
       name: "Birga Soft",
-      url: "https://birgastore.vercel.app",
+      url: "https://birgastoresystem.vercel.app",
     },
   ],
   creator: "Birga Soft",
@@ -75,7 +75,7 @@ export const metadata: Metadata = {
   generator: "Next.js",
   category: "Store Management",
   manifest: "/manifest.webmanifest",
-  metadataBase: new URL("https://birgastore.vercel.app"),
+  metadataBase: new URL("https://birgastoresystem.vercel.app"),
   robots: {
     index: true,
     follow: true,
