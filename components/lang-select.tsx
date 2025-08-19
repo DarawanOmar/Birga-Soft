@@ -80,7 +80,7 @@ export const langSelect = () => {
   const t = useTranslations("intro");
   return [
     {
-      value: "kr",
+      value: "ckb",
       label: t("Kurdish"),
       image: kurd,
     },
