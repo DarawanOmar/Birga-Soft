@@ -5,14 +5,6 @@ import HeroSection from "@/components/hero-section";
 import React from "react";
 import LogoCloud from "@/components/logo-cloud";
 import AboutMe from "@/components/about";
-import { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Welcome to Birga Store",
-  description:
-    "Manage your store efficiently with Birga Store. Track inventory, handle sales, manage products, and grow your business with our comprehensive management system.",
-  keywords: ["Birga Store", "online shopping", "best offers"],
-};
 
 async function IntroPage() {
   return (
@@ -49,9 +41,3 @@ async function IntroPage() {
 }
 
 export default IntroPage;
-
-const images = [
-  { src: "/report-screen.png", alt: "Image 1" },
-  { src: "/report-screen2.png", alt: "Image 2" },
-  { src: "/report-screen.png", alt: "Image 3" },
-];
