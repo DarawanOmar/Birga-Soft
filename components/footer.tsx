@@ -11,7 +11,7 @@ export default async function FooterSection() {
     <footer className="pb-16 md:pb-32 z-10 relative" id="footer">
       <div className="mx-auto max-w-5xl px-6 z-30 relative">
         <Link href="/" aria-label="go home" className="mx-auto block size-fit">
-          <Logo />
+          <Logo className="size-20" />
         </Link>
 
         <div className="my-8 flex flex-wrap justify-center gap-6 text-sm">
