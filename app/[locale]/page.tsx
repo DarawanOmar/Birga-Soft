@@ -3,8 +3,7 @@ import FooterSection from "@/components/footer";
 import { HeroHeader } from "@/components/header";
 import HeroSection from "@/components/hero-section";
 import React from "react";
-import LogoCloud from "@/components/logo-cloud";
-import AboutMe from "@/components/about";
+import WebsiteHero from "@/components/website-hero";
 
 async function IntroPage() {
   return (
@@ -32,9 +31,10 @@ async function IntroPage() {
       <HeroHeader />
       <HeroSection />
       <FeaturesSection />
-      <LogoCloud />
+      <WebsiteHero />
+      {/* <LogoCloud /> */}
       {/* <VedioSystemWithCustomThumbnail /> */}
-      <AboutMe />
+      {/* <AboutMe /> */}
       <FooterSection />
     </div>
   );

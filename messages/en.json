@@ -62,6 +62,28 @@
         }
       }
     },
+    "website": {
+      "title": "A Website for Marketing System Products",
+      "description": "This system has a dedicated marketing website that can be easily shared with customers to view and market products",
+      "features": {
+        "feature1": {
+          "title": "Advanced Design",
+          "description": "Designed in an advanced way that enables customers to use the website easily"
+        },
+        "feature2": {
+          "title": "Customer Registration",
+          "description": "Records customers' basic information so you can contact them and get confirmation"
+        },
+        "feature3": {
+          "title": "Website Control",
+          "description": "Through the system, you can control your website in displaying products, discounts, or special sections for discounts and latest products"
+        },
+        "feature4": {
+          "title": "Order Status",
+          "description": "Order status is managed through the system which includes preparation, delivery, waiting, or cancellation status and cancellation reason. Customers can view their order status through the website"
+        }
+      }
+    },
     "technologies": {
       "title": "Built with Powerful Technologies"
     },
