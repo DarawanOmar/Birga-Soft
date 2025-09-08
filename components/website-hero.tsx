@@ -1,9 +1,10 @@
 import { Cpu, Lock, Sparkles, Zap } from "lucide-react";
-import { getTranslations } from "next-intl/server";
+import { getLocale, getTranslations } from "next-intl/server";
 import Image from "next/image";
 
 export default async function WebsiteHero() {
   const t = await getTranslations("intro.website");
+  const locale = await getLocale();
   return (
     <section className="py-16 md:py-32">
       <div className="mx-auto max-w-5xl space-y-12 px-6">
@@ -15,14 +16,26 @@ export default async function WebsiteHero() {
           <div className="aspect-88/36 relative">
             <div className="bg-linear-to-t z-1 from-background absolute inset-0 to-transparent"></div>
             <Image
-              src="/store-dark.png"
+              src={
+                locale === "en"
+                  ? "/store-en-dark.png"
+                  : locale === "ar"
+                  ? "/store-ar-dark.png"
+                  : "/store-ckb-dark.png"
+              }
               className="hidden dark:block"
               alt="payments illustration dark"
               width={2797}
               height={1137}
             />
             <Image
-              src="/store.png"
+              src={
+                locale === "en"
+                  ? "/store-en-light.png"
+                  : locale === "ar"
+                  ? "/store-ar-light.png"
+                  : "/store-ckb-light.png"
+              }
               className="dark:hidden"
               alt="payments illustration light"
               width={2797}
