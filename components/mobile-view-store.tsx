@@ -6,10 +6,10 @@ async function MobileViewStore() {
   const locale = await getLocale();
   return (
     <>
-      <div aria-hidden className="relative">
+      <div aria-hidden className="">
         <div
           aria-hidden
-          className=" p-4 transition-transform duration-200 group-hover:translate-y-0"
+          className="relative p-4 transition-transform duration-200 group-hover:translate-y-0"
         >
           <div
             aria-hidden

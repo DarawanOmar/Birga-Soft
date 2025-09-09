@@ -4,7 +4,6 @@ import { HeroHeader } from "@/components/header";
 import HeroSection from "@/components/hero-section";
 import React from "react";
 import WebsiteHero from "@/components/website-hero";
-import Image from "next/image";
 import MobileViewStore from "@/components/mobile-view-store";
 
 async function IntroPage() {
