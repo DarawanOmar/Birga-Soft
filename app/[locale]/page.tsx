@@ -5,6 +5,7 @@ import HeroSection from "@/components/hero-section";
 import React from "react";
 import WebsiteHero from "@/components/website-hero";
 import MobileViewStore from "@/components/mobile-view-store";
+import Features from "@/components/more-fetures-section";
 
 async function IntroPage() {
   return (
@@ -32,6 +33,7 @@ async function IntroPage() {
       <HeroHeader />
       <HeroSection />
       <FeaturesSection />
+      <Features />
       <WebsiteHero />
       <MobileViewStore />
 

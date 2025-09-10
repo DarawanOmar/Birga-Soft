@@ -60,6 +60,26 @@
           "card": "Card",
           "resizable": "Resizable"
         }
+      },
+      "more-features": {
+        "title": "More Features",
+        "description": "Additional features for buying, selling, receipts, and inventory",
+        "one": {
+          "title": "Buying and Selling",
+          "description": "You can buy and sell in cash, credit, and with discounts, and also make partial payments when buying or selling on credit."
+        },
+        "two": {
+          "title": "Receipts and Their Information",
+          "description": "You can view the sales and purchase receipts and all their details, and see which products were sold as returned or not."
+        },
+        "three": {
+          "title": "Roles and Users",
+          "description": "You can assign roles and permissions to users, and give each user specific access to pages."
+        },
+        "four": {
+          "title": "Inventory and Information",
+          "description": "Add products to inventory, edit product information, and search for products by quantity, price, or name."
+        }
       }
     },
     "website": {
