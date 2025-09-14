@@ -51,7 +51,7 @@ export default async function WebsiteHero() {
                 {t("features.feature1.title")}
               </h3>
             </div>
-            <p className="text-muted-foreground text-sm">
+            <p className="text-muted-foreground text-sm max-sm:text-xs">
               {t("features.feature1.description")}
             </p>
           </div>
@@ -62,7 +62,7 @@ export default async function WebsiteHero() {
                 {t("features.feature2.title")}
               </h3>
             </div>
-            <p className="text-muted-foreground text-sm">
+            <p className="text-muted-foreground text-sm max-sm:text-xs">
               {t("features.feature2.description")}
             </p>
           </div>
@@ -73,7 +73,7 @@ export default async function WebsiteHero() {
                 {t("features.feature3.title")}
               </h3>
             </div>
-            <p className="text-muted-foreground text-sm">
+            <p className="text-muted-foreground text-sm max-sm:text-xs">
               {t("features.feature3.description")}
             </p>
           </div>
@@ -85,7 +85,7 @@ export default async function WebsiteHero() {
                 {t("features.feature4.title")}
               </h3>
             </div>
-            <p className="text-muted-foreground text-sm">
+            <p className="text-muted-foreground text-sm max-sm:text-xs">
               {t("features.feature4.description")}
             </p>
           </div>

@@ -55,29 +55,31 @@ export default async function Features() {
               <p className="text-muted-foreground my-4 text-sm">
                 {t("two.description")}
               </p>
-              <Card
-                aria-hidden
-                className="aspect-video p-4 transition-transform duration-200 group-hover:translate-y-0"
-              >
-                <div
+              <div aria-hidden className="relative">
+                <Card
                   aria-hidden
-                  className="bg-linear-to-b from-transparent to-background absolute inset-0 z-10"
-                />
-                <Image
-                  src="/invoice-ckb-dark.png"
-                  alt="mobileWallet"
-                  width={500}
-                  height={300}
-                  className="object-cover hidden dark:block"
-                />
-                <Image
-                  src="/invoice-ckb-light.png"
-                  alt="mobileWallet"
-                  width={500}
-                  height={300}
-                  className="object-cover block dark:hidden"
-                />
-              </Card>
+                  className="aspect-video p-4 transition-transform duration-200 group-hover:translate-y-0"
+                >
+                  <div
+                    aria-hidden
+                    className="bg-linear-to-b from-transparent to-background absolute inset-0 z-10"
+                  />
+                  <Image
+                    src="/invoice-ckb-dark.png"
+                    alt="mobileWallet"
+                    width={500}
+                    height={300}
+                    className="object-cover hidden dark:block"
+                  />
+                  <Image
+                    src="/invoice-ckb-light.png"
+                    alt="mobileWallet"
+                    width={500}
+                    height={300}
+                    className="object-cover block dark:hidden"
+                  />
+                </Card>
+              </div>
             </div>
           </div>
 
@@ -124,29 +126,31 @@ export default async function Features() {
               <p className="text-muted-foreground my-4 text-sm">
                 {t("four.description")}
               </p>
-              <Card
-                aria-hidden
-                className="aspect-video p-4 transition-transform duration-200 group-hover:translate-y-0"
-              >
-                <div
+              <div aria-hidden className="relative">
+                <Card
                   aria-hidden
-                  className="bg-linear-to-b from-transparent to-background absolute inset-0 z-10"
-                />
-                <Image
-                  src="/product-ckb-dark.png"
-                  alt="mobileWallet"
-                  width={500}
-                  height={300}
-                  className="object-cover hidden dark:block"
-                />
-                <Image
-                  src="/product-ckb-light.png"
-                  alt="mobileWallet"
-                  width={500}
-                  height={300}
-                  className="object-cover block dark:hidden"
-                />
-              </Card>
+                  className="aspect-video p-4 transition-transform duration-200 group-hover:translate-y-0"
+                >
+                  <div
+                    aria-hidden
+                    className="bg-linear-to-b from-transparent to-background absolute inset-0 z-10"
+                  />
+                  <Image
+                    src="/product-ckb-dark.png"
+                    alt="mobileWallet"
+                    width={500}
+                    height={300}
+                    className="object-cover hidden dark:block"
+                  />
+                  <Image
+                    src="/product-ckb-light.png"
+                    alt="mobileWallet"
+                    width={500}
+                    height={300}
+                    className="object-cover block dark:hidden"
+                  />
+                </Card>
+              </div>
             </div>
           </div>
         </div>

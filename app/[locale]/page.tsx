@@ -6,6 +6,9 @@ import React from "react";
 import WebsiteHero from "@/components/website-hero";
 import MobileViewStore from "@/components/mobile-view-store";
 import Features from "@/components/more-fetures-section";
+import Link from "next/link";
+import { buttonVariants } from "@/components/ui/button";
+import LinkWebsite from "@/components/link-website";
 
 async function IntroPage() {
   return (
@@ -35,8 +38,8 @@ async function IntroPage() {
       <FeaturesSection />
       <Features />
       <WebsiteHero />
+      <LinkWebsite />
       <MobileViewStore />
-
       <FooterSection />
     </div>
   );

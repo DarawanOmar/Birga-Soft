@@ -26,7 +26,7 @@ async function MobileViewStore() {
             alt="mobileWallet"
             width={500}
             height={300}
-            className="object-cover mx-auto scale-75 hidden dark:block"
+            className="object-cover mx-auto scale-75 hidden dark:block "
           />
           <Image
             src={

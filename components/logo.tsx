@@ -12,10 +12,7 @@ export const Logo = ({
     <Image
       src={logo}
       alt="Birga Store Logo"
-      className={cn(
-        "size-8 w-8 rounded-full object-cover dark:invert",
-        className
-      )}
+      className={cn("size-8 w-8 rounded-full  dark:", className)}
       priority
       height={200}
       width={200}

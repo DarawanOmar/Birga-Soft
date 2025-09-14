@@ -102,7 +102,9 @@
           "title": "Order Status",
           "description": "Order status is managed through the system which includes preparation, delivery, waiting, or cancellation status and cancellation reason. Customers can view their order status through the website"
         }
-      }
+      },
+      "view_store": "To see the e-commerce website you can click this link below",
+      "link": "View E-commerce Website"
     },
     "technologies": {
       "title": "Built with Powerful Technologies"
